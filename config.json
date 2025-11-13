@@ -1,0 +1,6 @@
+{
+  "openweather_api_key": "0fceb022e90eecf2c580132f9ccd74ce",
+  "collection_interval_hours": 4,
+  "api_port": 5000,
+  "database_path": "data/air_quality.db"
+}

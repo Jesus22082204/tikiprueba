@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+schedule
+pandas
+openpyxl
+psycopg2-binary

@@ -1,0 +1,66 @@
+/* ==============================
+   Tipografía y Base
+============================== */
+body{font-family:'Arial',sans-serif;background-color:#f9fafb;color:#374151}
+h1,h2,h3{font-weight:600;color:#1f2937}
+table{border-collapse:collapse;width:100%}
+th,td{padding:0.6rem;border:1px solid #e5e7eb}
+th{font-weight:600;background-color:#f3f4f6}
+
+/* ==============================
+   Sidebar
+============================== */
+aside select,aside input{width:100%;padding:0.6rem;border-radius:0.5rem;border:1px solid #d1d5db;transition:border .3s,box-shadow .3s}
+aside select:focus,aside input:focus{outline:none;border-color:#3b82f6;box-shadow:0 0 0 2px rgba(59,130,246,.3)}
+aside label{font-size:.9rem;color:#4b5563}
+
+/* ==============================
+   Tarjetas / Secciones
+============================== */
+section{transition:transform .2s ease,box-shadow .2s ease}
+section:hover{transform:translateY(-2px);box-shadow:0 6px 12px rgba(0,0,0,.08)}
+section h3{font-size:1.2rem;margin-bottom:.75rem}
+
+/* ==============================
+   Botones
+============================== */
+button{background-color:#3b82f6;color:#fff;padding:.6rem 1rem;border-radius:.5rem;border:none;font-weight:600;transition:background .3s,transform .2s}
+button:hover{background-color:#2563eb;transform:scale(1.02)}
+
+/* ==============================
+   Mapa
+============================== */
+#map{width:100%;height:100%;min-height:320px;border-radius:.75rem;overflow:hidden}
+
+/* ==============================
+   Heatmap
+============================== */
+#heatmapContainer{max-height:300px;overflow-y:auto;padding-right:10px;scrollbar-width:thin}
+#heatmapContainer::-webkit-scrollbar{width:6px}
+#heatmapContainer::-webkit-scrollbar-thumb{background:#9ca3af;border-radius:10px}
+
+/* ==============================
+   Indicadores
+============================== */
+#pm25,#pm10,#temperature,#qualityMessage{font-size:1.25rem;font-weight:bold}
+#pm25:hover,#pm10:hover,#temperature:hover,#qualityMessage:hover{transform:scale(1.05);transition:transform .2s ease}
+
+/* ==============================
+   Tablas
+============================== */
+table tbody tr:hover{background-color:#f9fafb}
+
+/* ==============================
+   Footer
+============================== */
+footer{background-color:#e5e7eb;color:#6b7280;padding:1rem;text-align:center;font-size:.875rem}
+
+/* ==============================
+   NUEVO: Gráficas responsivas
+============================== */
+.chart-wrap{position:relative;height:340px}
+@media (max-width:640px){.chart-wrap{height:260px}}
+
+/* Donut AQI más pequeño */
+.aqi-donut-wrap{max-width:220px;margin:0 auto}
+@media (max-width:640px){.aqi-donut-wrap{max-width:180px}}
